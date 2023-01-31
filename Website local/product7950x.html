@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech On Time</title>
+    <script
+      src="https://kit.fontawesome.com/9d1d0bff65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <style>
+    body {
+      background-color: mediumpurple;
+    }
+  </style>
+
+  <body>
+    <section id="header">
+      <a href="#"><img src="img/Logo.png" class="logo" alt="Tech On Time" /></a>
+
+      <div>
+        <ul id="headernav">
+          <li><a href="index.html">Home</a></li>
+          <li><a class="currentpage" href="shop.html">Shop</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li>
+            <a>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="productdetails" class="section-p1">
+      <div class="productimage">
+        <img src="img/Products/7950x.jpg" width="100%" id="MainImg" alt="" />
+      </div>
+
+      <div id="productimage-details">
+        <h6 style="color: white">Shop/ AMD 7950x</h6>
+        <h4>CPUS</h4>
+        <h2>£599</h2>
+
+        <input type="number" value="1" style="color: black" />
+        <button id="productimage-button">Add To Cart</button>
+        <h4>Product Details</h4>
+        <span style="color: black"
+          >The AMD Ryzen™ 9 7950X flagship CPU comes bursting through with 16
+          cores/32 threads, support for DDR5 (5200Mhz) memory and incredible
+          boosted clock speeds of up to 5.7GHz taking you to the boundaries of
+          modern day performance.</span
+        >
+      </div>
+    </section>
+
+    <div class="content">
+      <h1 id="shopcatheadercpu" href="cpu">CPUS</h1>
+
+      <div class="productsection">
+        <div class="product" onclick="window.location.href='product7900.html';">
+          <a href="#"
+            ><img
+              src="img/Products/7900.jpg"
+              alt="AMD Ryzen 9 7900 AM5 Processor"
+          /></a>
+          <div class="description">
+            <h3>AMD Ryzen 9 7900</h3>
+            <p><strong>£430</strong></p>
+            <div class="reviewstars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='product13900k.html';"
+        >
+          <a href="#"
+            ><img
+              src="img/Products/13900k.jpg"
+              alt="Intel Core i9 13900K 13th Generation 24 Core Processor"
+          /></a>
+          <div class="description">
+            <h3>Intel Core i9 13900K</h3>
+            <p><strong>£610</strong></p>
+            <div class="reviewstars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+        <div
+          class="product"
+          onclick="window.location.href='product13700k.html';"
+        >
+          <a href="#"
+            ><img
+              src="img/Products/13700k.jpg"
+              alt="Intel Core i7 13700K 13th Generation 16 Core Processor"
+          /></a>
+          <div class="description">
+            <h3>Intel Core i7 13700K</h3>
+            <p><strong>£450</strong></p>
+            <div class="reviewstars">
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+              <i class="fa-regular fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="columns">
+        <img src="img/Logo.png" style: width="" alt="Tech On Time Logo">
+        <div>
+          <h4 style="color: white" ;>Contact us</h4>
+          <p style="color: white" ;>
+            <strong>Address: </strong>11 Boulevard Sendwe, Kinshasa, Kalamu,
+            Repulican of the Congo
+          </p>
+          <p style="color: white" ;>
+            <strong>Phone Number: </strong>(+243)818807577
+          </p>
+          <p style="color: white" ;>
+            <strong>Email: </strong> moyamajoe@gmail.com
+          </p>
+        </div>
+        <div class="copyright">
+          <p style="color: white; width: 100%; text-align: center">
+            © 2023, Tech On Time - Website
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript">
+      (function (I, L, T, i, c, k, s) {
+        if (I.iticks) return;
+        I.iticks = { host: c, settings: s, clientId: k, cdn: L, queue: [] };
+        var h = T.head || T.documentElement;
+        var e = T.createElement(i);
+        var l = I.location;
+        e.async = true;
+        e.src = (L || c) + "/client/inject-v2.min.js";
+        h.insertBefore(e, h.firstChild);
+        I.iticks.call = function (a, b) {
+          I.iticks.queue.push([a, b]);
+        };
+      })(
+        window,
+        "https://cdn-v1.intelliticks.com/prod/common",
+        document,
+        "script",
+        "https://app.intelliticks.com",
+        "Jnm3DSzK33n24utq9_c",
+        {}
+      );
+    </script>
+    <script src="script.js"></script>
+  </body>
+</html>

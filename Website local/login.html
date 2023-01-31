@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech On Time</title>
+    <script
+      src="https://kit.fontawesome.com/9d1d0bff65.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <style>
+    body{
+      background-color: mediumpurple;
+    }
+  </style>
+
+  <body></body>
+    <section id="header">
+      <a href="#"><img src="img/Logo.png" class="logo" alt="Tech On Time" /></a>
+
+      <div>
+        <ul id="headernav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="currentpage" href="login.html">Login</a></li>
+          <li>
+            <a>
+              <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div id="formbox">  
+        <h1 style="margin-bottom: 50px; margin-top: 10px;">Login Here</h1>
+        <form style="color: black;" name="myForm" action="/shop.html"  onsubmit="return validateForm()" method="post">
+            Name: <input style="color: black;" type="text" name="fname">
+            <input style="color: black;" type="submit" value="Submit">
+        </form> 
+     </div>
+
+    <script type='text/javascript'> 
+
+      (function(I, L, T, i, c, k, s) {if(I.iticks) return;I.iticks = {host:c, settings:s, clientId:k, cdn:L, queue:[]};var h = T.head || T.documentElement;var e = T.createElement(i);var l = I.location;e.async = true;e.src = (L||c)+'/client/inject-v2.min.js';h.insertBefore(e, h.firstChild);I.iticks.call = function(a, b) {I.iticks.queue.push([a, b]);};})(window, 'https://cdn-v1.intelliticks.com/prod/common', document, 'script', 'https://app.intelliticks.com', 'Jnm3DSzK33n24utq9_c', {}); 
+      
+      </script> 
+    <script src="script.js"></script>
+  </body>
+</html>
